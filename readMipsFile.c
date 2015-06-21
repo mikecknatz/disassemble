@@ -37,7 +37,7 @@ readMipsFile(int argc, char *argv[], int rFormatFlag, int jFormatFlag, int iForm
 			if(!fread(&fromHFile, 1, 4, stream) != 0){
 				break;
 			}
-			//Done
+			//Done for now
 			if(rFormatFlag){
 				if(fromHFile.rInst.opcode == 0){
 					valueUsed = 1;
