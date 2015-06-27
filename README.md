@@ -1,6 +1,6 @@
 disassemble
 
-This repository contains a partial mips disassemble written in C.
+This repository contains a partial mips disassembler written in C.
 Eventually I plan on finishing this project, but until then I am leaving it here as an example.
 
 Quick run through:
